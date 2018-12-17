@@ -1,0 +1,17 @@
+package users.service;
+
+import javax.persistence.PersistenceContext;
+
+@Stateless
+public class UsersManagerImpl implements UsersManager {
+
+	@PersistenceContext(name = "UsersService")
+	
+	@Override
+	public boolean IsGoodPassword(String username, String password) {
+		boolean result = false;
+		// TODO Auto-generated method stub
+		if(username == em.createNamedQuery("User.findByUsername").setParameter)
+		return result;
+	}
+}

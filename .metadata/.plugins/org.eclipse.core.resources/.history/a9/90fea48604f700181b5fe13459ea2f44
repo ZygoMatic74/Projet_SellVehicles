@@ -1,0 +1,13 @@
+package services;
+
+import java.util.Collection;
+
+import javax.ejb.Remote;
+
+import entities.Vehicles;
+
+@Remote
+public interface VehiclesManager {
+	public Vehicles createVehicles(String marque, String type, Collection<String> options, int stock, double prix, String devise);
+	public ArrayList<Vehicles> findAllVehicles();
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="VehiclesManagerComponent">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="VehiclesDataManager.jar" deploy-path="/lib" handle="module:/resource/VehiclesDataManager/VehiclesDataManager">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="VehiclesManagerService.jar" deploy-path="/" handle="module:/resource/VehiclesManagerService/VehiclesManagerService">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="UsersManagerService.jar" deploy-path="/" handle="module:/resource/UsersManagerService/UsersManagerService">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="UsersDataManager.jar" deploy-path="/lib" handle="module:/resource/UsersDataManager/UsersDataManager">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

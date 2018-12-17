@@ -1,0 +1,98 @@
+package entities;
+
+import java.io.Serializable;
+import java.util.List;
+
+import javax.persistence.*;
+
+/**
+ * Entity implementation class for Entity: Vehicles
+ *
+ */
+@NamedQueries({
+	@NamedQuery(name="Vehicles.findAll",
+				query="SELECT e FROM Vehicles e"),
+	@NamedQuery(name="Vehicles.findByPrimaryKey",
+				query="SELECT e FROM Vehicles e WHERE e.id = :id")
+	})
+
+@Entity
+@Table(name="Vehicles")
+public class Vehicles implements Serializable {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private long id;
+	
+	private String marque;
+	
+	private String type;
+	
+	private List<String> options;
+	
+	private int stock;
+	
+	private int prix;
+	
+	private String devise;
+	
+	
+	private static final long serialVersionUID = 1L;
+
+	public Vehicles() {
+		super();
+	}
+	
+	public Vehicles(String marque) {
+		super();
+		setMarque(marque);
+	}
+
+	public String getMarque() {
+		return marque;
+	}
+
+	public void setMarque(String marque) {
+		this.marque = marque;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public List<String> getOptions() {
+		return options;
+	}
+
+	public void setOptions(List<String> options) {
+		this.options = options;
+	}
+
+	public int getStock() {
+		return stock;
+	}
+
+	public void setStock(int stock) {
+		this.stock = stock;
+	}
+
+	public int getPrix() {
+		return prix;
+	}
+
+	public void setPrix(int prix) {
+		this.prix = prix;
+	}
+
+	public String getDevise() {
+		return devise;
+	}
+
+	public void setDevise(String devise) {
+		this.devise = devise;
+	}
+   
+}

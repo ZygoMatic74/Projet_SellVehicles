@@ -1,0 +1,11 @@
+#Mon Dec 03 10:02:56 CET 2018
+vl=How many times the 'Finish' button pressed during the day
+l=Wizard class name
+ct=jbt
+d=1543827776952
+c=0
+cmp=usage
+a=finishWizard
+cl=com.amazonaws.eclipse.lambda.upload.wizard.UploadFunctionWizard
+v=2.2.102
+s=0

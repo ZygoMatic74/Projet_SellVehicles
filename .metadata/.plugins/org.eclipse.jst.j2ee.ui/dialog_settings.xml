@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="true" key="J2EE_EXPORT_OVERWRITE"/>
+	<item value="false" key="J2EE_EXPORT_SOURCE"/>
+	<item value="VehiclesManagerComponent" key="LASTEARNAME_"/>
+	<list key="J2EE_EXPORT_JST_EAR">
+		<item value="C:\wildfly\wildfly-14.0.1.Final\standalone\deployments\VehiclesManagerComponent.ear"/>
+		<item value="C:\Users\Nicolas\Desktop\ProgComposant\VehiclesManagerComponent.ear"/>
+	</list>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="WildFly 12.0 Runtime"/>
+	</list>
+</section>

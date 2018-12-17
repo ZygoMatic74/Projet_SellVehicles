@@ -1,0 +1,10 @@
+package users.service;
+
+public class UsersManagerImpl implements UsersManager {
+
+	@Override
+	public Boolean IsGoodPassword(String username, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

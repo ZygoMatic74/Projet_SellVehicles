@@ -1,0 +1,6 @@
+package users.service;
+
+public interface UsersManager {
+
+	public boolean IsGoodPassword(String username, String password);
+}
